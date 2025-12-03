@@ -1,0 +1,9 @@
+CREATE TABLE Crianca (
+    Nome VARCHAR(100) PRIMARY KEY NOT NULL,
+    Idade INT NOT NULL,
+    CPF VARCHAR(11) NOT NULL,
+    Alergia BIT NOT NULL,
+    DesAlergia VARCHAR(150) NOT NULL,
+    NomeMae VARCHAR(150) NOT NULL,
+    TelefonePais INT NOT NULL
+);
